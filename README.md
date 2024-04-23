@@ -1,6 +1,6 @@
 # QuizApp
 The Quiz-App is a microservice-based architecture that consists of multiple services designed to handle different aspects of the quiz application. It is built using Spring Boot and incorporates Eureka Server for service discovery, OpenFeign for communication between services, and an API Gateway for centralized routing.<br/>
-Architecture Overview The Quiz-App architecture is based on microservices, where each service is responsible for a specific domain or functionality. <br/>The key components of the architecture include:<br/>
+Architecture Overview The Quiz-App architecture is based on microservices, where each service is responsible for a specific domain or functionality.<br/> <br/>The key components of the architecture include:<br/>
 Eureka Server: The service registry that allows microservices to discover and communicate with each other.<br/>
 Quiz Service: A microservice that handles quiz-related operations, such as creating quizzes, managing questions, and evaluating quiz results.<br/>
 Question Service: A microservice responsible for managing question-related operations, including adding new questions, retrieving question details, and maintaining question categories.<br/>
